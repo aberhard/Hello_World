@@ -8,5 +8,15 @@ namespace Hello_World
 {
     class LunchLoader
     {
+        internal void PrintVegi()
+        {
+            Console.WriteLine("Kartoffeln");
+        }
+
+
+        internal void PrintMeat()
+        {
+            Console.WriteLine("SchnitzelKartoffeln");
+        }
     }
 }
